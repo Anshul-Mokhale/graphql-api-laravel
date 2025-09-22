@@ -9,6 +9,7 @@ use Rebing\GraphQL\Support\Facades\GraphQL;
 
 class ProductsQuery extends Query
 {
+    // this is for testing
     protected $attributes = [
         'name' => 'products',
     ];
