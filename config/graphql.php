@@ -81,7 +81,9 @@ return [
         // Global types can be defined here if needed
     ],
 
-    'error_formatter' => [Rebing\GraphQL\GraphQL::class, 'formatError'],
+    // 'error_formatter' => [Rebing\GraphQL\GraphQL::class, 'formatError'],
+    'error_formatter' => [App\GraphQL\ErrorFormatter::class, 'formatError'],
+
 
     'errors_handler' => [Rebing\GraphQL\GraphQL::class, 'handleErrors'],
 
